@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+    
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  <link rel="icon" href="/jinkwang-web/favicon.ico"/>
+<meta name="theme-color" content="#301070" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="진광고" />
+<link rel="manifest" href="/jinkwang-web/manifest.json" />
+<link rel="apple-touch-icon" href="/jinkwang-web/apple-touch-icon.png" />
+<link rel="icon" href="/jinkwang-web/icon-192.png" />
+<title>진광고등학교</title>
+<style>
+  html, body { background: #301070; }
+  body { overscroll-behavior-y: none; -webkit-tap-highlight-color: transparent; }
+</style>
+</head>
+
+  <body>
+    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"></div>
+  <script src="/jinkwang-web/_expo/static/js/web/entry-639b0d2d1c01995d173726564d17532a.js" defer></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('/jinkwang-web/sw.js', { scope: '/jinkwang-web/' }).catch(function () {});
+    });
+  }
+</script>
+</body>
+</html>

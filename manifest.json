@@ -1,0 +1,25 @@
+{
+  "name": "진광고등학교",
+  "short_name": "진광고",
+  "description": "진광고등학교 재학생 앱 — 급식, 시간표, 공지, 복장 지도",
+  "start_url": "/jinkwang-web/",
+  "scope": "/jinkwang-web/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#301070",
+  "theme_color": "#301070",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "/jinkwang-web/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/jinkwang-web/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
